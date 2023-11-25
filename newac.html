@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Account Information</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon">
+    <link href="assets/img/logo.png" rel="EP">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="newac2.css">
+</head>
+
+
+<body>
+    <!--=======Header=======-->
+    <header id="header" class="fixed-top d-flex align-items-center ">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <h1 class="text-light"><a href="index.html"><span>EasyPay</span></a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--></div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Loans</a></li>
+                    <li><a href="team.html">Team</a></li><i class="bi bi-chevron-down"></i></a>
+                    </li>
+                    <li><a class="active" href="contact.html">Contact Us</a></li>
+                </ul><i class="bi bi-list mobile-nav-toggle"></i></nav>
+            <!-- .navbar -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <br><br><br><br><br>
+    <div class="signup-form">
+        <h2>Sign Up</h2>
+
+        <form action="php.php" method="post" enctype="multipart/form-data">
+            
+            <label for="user_id">UserID</label>
+            <input type="text" name="user_id" placeholder="Enter USERID for you">
+            
+            <label for="username">Username</label>
+            <input type="text" name="username" placeholder="Enter your username">
+
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Enter your password">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter your email">
+
+            <label for="pancardno">Pan Card No</label>
+            <input type="text" name="pancardno" placeholder="Enter your PAN card number">
+
+            <label for="myFile">Upload Pan Card</label>
+            <input type="file" name="pancard" accept="image/jpeg">
+
+            <input type="submit" name="SignUp" value="Sign Up">
+        </form>
+
+    </div>
+
+    <script src="newac1.js"></script>
+
+</body>
+
+</html>
